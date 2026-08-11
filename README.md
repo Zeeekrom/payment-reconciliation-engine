@@ -25,9 +25,9 @@ graph LR
     GATE -->|fail| REJ["Rejected — HTTP 409"]
     SRC -.this really happened once,<br/>see FC011.-> L1
 
-    classDef det fill:#1f6feb33,stroke:#58a6ff,color:#e6edf3
-    classDef ai fill:#f8514933,stroke:#f85149,color:#e6edf3
-    classDef gate fill:#3fb95033,stroke:#3fb950,color:#e6edf3
+    classDef det fill:#cfe3ff,stroke:#3f7fd6,color:#0b3d91,stroke-width:1.5px
+    classDef ai fill:#ffd9d9,stroke:#e05555,color:#7a1f1f,stroke-width:1.5px
+    classDef gate fill:#cdf3d4,stroke:#2f9e44,color:#0f5c26,stroke-width:1.5px
     class L1,DB,SRC,EV det
     class L2,L3 ai
     class GATE,REJ gate
