@@ -75,6 +75,12 @@ Layers 2 and 3 call a hosted, OpenAI-compatible LLM API and need `BIGMODEL_API_K
 
 This started as a way to go deep on a specific, real-shaped problem — reconciling payment results from multiple unreliable, differently-formatted sources — and to be honest, in writing, about where an AI-assisted development workflow is trustworthy and where it isn't. The engineering log exists because "the tests passed" turned out to be a much weaker claim than it first appears, and that's worth having evidence for rather than just asserting.
 
+## Poster
+
+<img src="docs/poster.jpg" alt="Project poster" width="520">
+
+A one-page summary of the project, made in October 2026.
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
