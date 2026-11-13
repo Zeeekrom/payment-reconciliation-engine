@@ -8,6 +8,12 @@ Built in two deliberately separate phases:
 
 This repo is a curated snapshot of that project — selected source files, the architecture writeup, and an honest log of real problems hit along the way (`docs/ENGINEERING_LOG.md`), not a sales pitch. Full context: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) · [`docs/ENGINEERING_LOG.md`](docs/ENGINEERING_LOG.md) · [`docs/DESIGN_DECISIONS.md`](docs/DESIGN_DECISIONS.md).
 
+<a href="https://zeeekrom.github.io/payment-reconciliation-engine/film/"><img src="film/preview.jpg" alt="Play Passed Everything, a narrated engineering investigation of this project" width="640"></a>
+
+**Film:** [watch *Passed Everything*, a 3:57 engineering investigation](https://zeeekrom.github.io/payment-reconciliation-engine/film/)
+— recorded live on this project: the AI reviewer approves a failing draft, the code-level gate reruns the tests and refuses it,
+and the timestamp bug from FC011 is put back and run again. English narration (synthetic voice) with captions; simulated payment channels.
+
 ---
 
 ## The core boundary
