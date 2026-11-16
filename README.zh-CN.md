@@ -2,7 +2,7 @@
 
 [English](README.md) · **简体中文**
 
-![Licence: MIT](https://img.shields.io/badge/licence-MIT-2F855A)
+![Licence: all rights reserved](https://img.shields.io/badge/licence-all%20rights%20reserved-8B1E1E)
 ![Payments: simulated](https://img.shields.io/badge/payments-simulated-0f766e)
 
 Payment Reconciliation Engine（支付对账引擎）把三个模拟支付渠道返回的结果，合成一个前后一致、可以审计的支付状态。每个渠道的字段名和状态码都不一样，同一个结果可能来两次，其中一个渠道还可能什么都不返回。互相矛盾或认不出的信号会交给人处理，而不是去猜；只有一次成功报告，也不足以确认一笔付款。它模拟的是一家通过多个支付服务商收款的企业的后台。
@@ -261,4 +261,4 @@ python -m pytest -q
 
 ## 版权与许可
 
-Copyright (c) 2026 Zeeekrom。源代码按 MIT 许可证发布，见 [LICENSE](LICENSE)。影片 *Passed Everything* 及其旁白脚本、海报和预览图适用它们自己的[条款页](https://zeeekrom.github.io/payment-reconciliation-engine/film/terms.html)（英文），条款页里也列出了影片用到的第三方字体、音乐和语音。
+© 2026 Payment Reconciliation Engine，保留所有权利，见 [LICENSE](LICENSE)。未经书面许可，不得复制、转载或改编本仓库的任何内容，也不得用手工、自动化工具或 AI 克隆工具重建项目的代码和设计；除法律允许的情形外，不得对代码进行逆向工程；不得抓取、批量下载这些内容，或把它们用于训练、评测 AI 模型。法律本身允许的使用（如为评论、新闻报道合理引用）不受影响。欢迎分享链接。2026 年 11 月 16 日及以前发布的版本按 MIT 许可证发布，这些版本仍适用 MIT。`requirements.txt` 里的 Python 包不在本仓库中，各自保留自己的许可。影片用到的第三方字体、音乐和语音列在它的[条款页](https://zeeekrom.github.io/payment-reconciliation-engine/film/terms.html)（英文）。如需许可，请通过 [LinkedIn](https://www.linkedin.com/in/evan-h-165976301/) 联系我。

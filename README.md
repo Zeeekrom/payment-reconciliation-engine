@@ -2,7 +2,7 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-![Licence: MIT](https://img.shields.io/badge/licence-MIT-2F855A)
+![Licence: all rights reserved](https://img.shields.io/badge/licence-all%20rights%20reserved-8B1E1E)
 ![Payments: simulated](https://img.shields.io/badge/payments-simulated-0f766e)
 
 Payment Reconciliation Engine takes the results of three simulated payment channels and turns them into one consistent, auditable payment status. Each channel uses its own field names and status codes, the same result can arrive twice, and one channel can return nothing at all. Conflicting and unrecognised signals go to a person instead of being guessed, and one success report is not enough to confirm a payment. It models the back office of a business that takes payments through several providers.
@@ -261,4 +261,4 @@ Layers 2 and 3 call a hosted LLM API and need `BIGMODEL_API_KEY` set (see [`app/
 
 ## Copyright and licence
 
-Copyright (c) 2026 Zeeekrom. The source code is released under the MIT License; see [LICENSE](LICENSE). The film *Passed Everything*, its narration script, poster and preview image are covered by their own [terms page](https://zeeekrom.github.io/payment-reconciliation-engine/film/terms.html), which also lists the third-party fonts, music and voice used in the film.
+© 2026 Payment Reconciliation Engine. All rights reserved; see [LICENSE](LICENSE). Without written permission, nothing in this repository may be copied, republished or adapted, and the project's code and design may not be rebuilt, whether by hand, with automated tools or with AI cloning tools. The code may not be reverse engineered except where the law allows, and the content may not be scraped, bulk-downloaded or used to train or evaluate AI models. Uses the law already allows, such as fair dealing for review or news reporting, are not affected. Sharing links is welcome. Versions published up to 16 November 2026 were released under the MIT License, and that licence still applies to them. The Python packages in `requirements.txt` are not included and keep their own licences. The film's third-party fonts, music and voice are listed on its [terms page](https://zeeekrom.github.io/payment-reconciliation-engine/film/terms.html). To ask for permission, contact me on [LinkedIn](https://www.linkedin.com/in/evan-h-165976301/).

@@ -1,21 +1,36 @@
-MIT License
+Copyright (c) 2026 Payment Reconciliation Engine. All rights reserved.
 
-Copyright (c) 2026 Zeeekrom
+This repository and everything in it (text, translations, images, video, posters,
+documents, data compilations, and the project's own code and design) is protected
+by copyright. No licence is granted to use it, except as stated below.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Without the copyright holder's prior written permission, you may not:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. copy, reproduce, republish, distribute or sell any of it, in whole or in part;
+2. modify, adapt, translate or build on it, or rebuild the project's code or
+   design, whether by hand, with automated tools, or with AI tools that clone or
+   regenerate code, websites or designs;
+3. reverse engineer the project's code, except to the extent the law expressly
+   allows;
+4. scrape, crawl, mirror or bulk-download it, or use any part of it to train,
+   fine-tune or evaluate an AI or machine-learning model, or to build a dataset;
+5. use the project's name, logo or design in a way that suggests a connection
+   with, or endorsement by, the project.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This does not limit what the law already allows without permission, such as fair
+dealing for research, study, criticism, review or news reporting. Viewing and
+forking this repository on GitHub remain available only to the extent GitHub's
+Terms of Service require for public repositories; a fork grants no right to use
+the content anywhere else. Sharing links is welcome.
+
+Versions of this repository published up to and including commit b3856f2 (16 November 2026) were
+released under the MIT License, and that licence continues to apply to those versions.
+
+Third-party material keeps its own licence, and nothing in this notice restricts what that licence allows:
+
+- The Python packages listed in requirements.txt are not included here; each keeps its own licence.
+- The film's third-party fonts, music and voice are listed on its terms page.
+
+Terms, licences and privacy: https://zeeekrom.github.io/payment-reconciliation-engine/film/terms.html
+
+To ask for permission: https://www.linkedin.com/in/evan-h-165976301/
