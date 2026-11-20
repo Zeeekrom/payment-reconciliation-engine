@@ -29,6 +29,11 @@ This repository is a curated snapshot of a larger project: selected source for a
 the code-level gate re-runs the tests and refuses it, and the timestamp bug from FC011 is put back and run again.
 English narration (synthetic voice) with captions. The payment channels are simulated.
 
+**Interactive demo:** [Agent Run Explorer](https://agent.evanh.dev/) ([中文](https://agent.evanh.dev/zh/))
+— step through four real runs of the Layer 2 Copilot's tool-calling loop, recorded with glm-4-plus on 20 November 2026.
+Click any step to see the data it handled and the lines of this repository's code (commit `e15bf65`) that ran.
+The runs are replayed, so nothing on the page calls a model. The payment data is simulated.
+
 ## Contents
 
 - [At a glance](#at-a-glance)
@@ -59,7 +64,7 @@ English narration (synthetic voice) with captions. The payment channels are simu
 | Stack | Python, Pydantic, SQLite, httpx, python-dotenv and pytest. The full project adds a FastAPI layer and a web front-end, which are not in this snapshot |
 | Evidence | 46 automated tests for the core, passing with no API key; an engineering log of 11 problems (FC001 to FC011), each with symptom, root cause, fix and category; 3 design decisions |
 | Data | Simulated channel payloads only, with Chinese field names; Channel B uses WeChat Pay-style status codes. No real payment is processed |
-| Status | A curated snapshot published on 11 Aug 2026, with a poster (Oct 2026) and a film (Nov 2026). A personal prototype, not a payment service |
+| Status | A curated snapshot published on 11 Aug 2026, with a poster (Oct 2026), a film (Nov 2026) and an [interactive demo](https://agent.evanh.dev/) (Nov 2026). A personal prototype, not a payment service |
 
 ## The problem
 
@@ -178,6 +183,7 @@ Layer 1 calls no model, but not every line in it was written by hand. The event 
 | 11 Oct 2026 | One-page poster |
 | 13 Nov 2026 | Film *Passed Everything* recorded on a copy of the project and published with a terms page |
 | 14 Nov 2026 | Film re-encoded so it plays in more browsers |
+| 20 Nov 2026 | Interactive demo, the Agent Run Explorer, published at agent.evanh.dev: four recorded real runs of the Copilot loop, each step linked to the code that ran |
 
 The deterministic core was built and tested first. The AI layers were added on top, with read-only access to payment data.
 
@@ -230,6 +236,8 @@ python -m pytest -q
 ```
 
 Layers 2 and 3 call a hosted LLM API and need `BIGMODEL_API_KEY` set (see [`app/config.py`](app/config.py)). They have no runnable entrypoint in this snapshot, and the Copilot's rule documents (`data/docs/`) are not included. They are here to be read, not run end to end.
+
+To watch Layer 2 at work without running anything, open the [Agent Run Explorer](https://agent.evanh.dev/).
 
 ## Security and data boundary
 
