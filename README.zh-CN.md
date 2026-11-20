@@ -24,15 +24,26 @@ Payment Reconciliation Engine（支付对账引擎）把三个模拟支付渠道
 </tr>
 </table>
 
+<table>
+<tr>
+<td><a href="https://agent.evanh.dev/zh/"><img src="docs/explorer-replay.zh.jpg" alt="Agent Run Explorer 回放版：Copilot 工具调用循环的四次录制运行，人人可看" width="416"></a></td>
+<td><a href="https://agent-live.evanh.dev/live/zh/"><img src="docs/explorer-live.zh.jpg" alt="Agent Run Explorer 实时版：问你自己的问题，GLM、Claude 或 GPT 当场跑，仅限受邀" width="416"></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://agent.evanh.dev/zh/">回放：四次录制的运行，人人可看</a></td>
+<td align="center"><a href="https://agent-live.evanh.dev/live/zh/">实时：问你自己的问题，仅限受邀</a></td>
+</tr>
+</table>
+
 **影片：** [观看 *Passed Everything*，3 分 57 秒的工程调查片](https://zeeekrom.github.io/payment-reconciliation-engine/film/)
 ——2026 年 11 月 13 日在本项目的一份副本上录制，用的是真实的模型调用：AI 审查员批准了一份没通过测试的草稿，
 代码层面的闸门重新跑测试并拒绝了它；FC011 里那个时间戳 bug 被放回去，再跑一遍。英文旁白（合成语音），带字幕。
 支付渠道是模拟的。
 
 **互动演示：** [Agent Run Explorer](https://agent.evanh.dev/zh/)（[English](https://agent.evanh.dev/)）
-——逐步回放第 2 层 Copilot 工具调用循环的四次真实运行，2026 年 11 月 20 日用 glm-4-plus 录制。
-点任意一步，就能看到它处理的数据，以及当时跑到的本仓库代码（提交 `e15bf65`）。
-页面只是回放，不会调用模型。付款数据是模拟的。
+——第 2 层 Copilot 工具调用循环的每一步，配上它处理的数据和当时跑到的本仓库代码（提交 `e15bf65`）。
+回放版是用 glm-4-plus 录制的四次运行，不调用模型；实时版（仅限受邀）用 GLM、Claude 或 GPT 当场跑一个新问题。
+付款数据是模拟的。
 
 ## 目录
 
