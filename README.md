@@ -24,15 +24,26 @@ This repository is a curated snapshot of a larger project: selected source for a
 </tr>
 </table>
 
+<table>
+<tr>
+<td><a href="https://agent.evanh.dev/"><img src="docs/explorer-replay.jpg" alt="Agent Run Explorer, replay: four recorded runs of the Copilot's tool-calling loop, open to all" width="416"></a></td>
+<td><a href="https://agent-live.evanh.dev/"><img src="docs/explorer-live.jpg" alt="Agent Run Explorer, live mode: ask your own question and GLM, Claude or GPT runs it, invite only" width="416"></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://agent.evanh.dev/">Replay: four recorded runs, open to all</a></td>
+<td align="center"><a href="https://agent-live.evanh.dev/">Live: your own question, invite only</a></td>
+</tr>
+</table>
+
 **Film:** [watch *Passed Everything*, a 3:57 engineering investigation](https://zeeekrom.github.io/payment-reconciliation-engine/film/)
 — recorded on a copy of this project on 13 November 2026, with real model calls: the AI reviewer approves a failing draft,
 the code-level gate re-runs the tests and refuses it, and the timestamp bug from FC011 is put back and run again.
 English narration (synthetic voice) with captions. The payment channels are simulated.
 
 **Interactive demo:** [Agent Run Explorer](https://agent.evanh.dev/) ([中文](https://agent.evanh.dev/zh/))
-— step through four real runs of the Layer 2 Copilot's tool-calling loop, recorded with glm-4-plus on 20 November 2026.
-Click any step to see the data it handled and the lines of this repository's code (commit `e15bf65`) that ran.
-The runs are replayed, so nothing on the page calls a model. The payment data is simulated.
+— each step of the Layer 2 Copilot's tool-calling loop, with the data it handled and the lines of this repository's code (commit `e15bf65`) that ran.
+The replay shows four runs recorded with glm-4-plus and calls no model; live mode (invite only) runs a new question on GLM, Claude or GPT.
+The payment data is simulated.
 
 ## Contents
 
