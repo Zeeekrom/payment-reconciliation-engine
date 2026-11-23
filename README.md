@@ -63,6 +63,9 @@ These roles describe who the design is for, not real users. The channels are sim
 - **Evidence and conclusion are kept apart.** The raw reports are never edited; the current status is derived from them and can be recomputed.
 - **The assistant says when it doesn't know.** It answers only from what its tools returned, and when nothing relevant is found it says the evidence is insufficient.
 - **A check in code beats a rule in a prompt.** AI-drafted code reaches the source only if the tests, run again by the code itself, pass.
+- **Automated, with a person at the gate.** Once a week an AI agent works on this repository on a schedule. It may only open a draft pull request; a person decides what merges, and nothing reaches the main branch without a pull request whose tests pass.
+- **The model can be swapped; the rules stay.** The same loop and the same read-only tools run on GLM, Claude or GPT, and the core reconciles payments with no model at all.
+- **Security boundaries.** Live mode admits only invited people. Model keys stay on the server, never in this repository or the browser; deployments sign in with short-lived credentials instead of stored passwords; and every push to this repository is scanned for secrets.
 
 ## Problems that became rules
 
